@@ -1,0 +1,70 @@
+@media all and(max-width: 721px) {
+    h1 {
+        display: flex;
+        justify-content: left;
+        flex-wrap: wrap;
+        font-size: small;
+        width: 59vw;
+
+    }
+
+    h5 {
+        display: flex;
+        justify-content: left;
+        flex-wrap: wrap;
+        font-size: medium;
+        width: 259px;
+
+    }
+
+    footer {
+        width: 100%;
+        height: 100%;
+        position: relative;
+
+        background-color: yellow;
+
+    }
+
+}
+
+#a {
+    position: absolute;
+    top: 100px;
+    left: 200px;
+    width: 100px;
+    height: 100px;
+
+
+}
+
+#ld {
+    position: absolute;
+    top: 100px;
+    left: -20%;
+    width: 100px;
+    height: 100px;
+    transition: width 2s;
+}
+
+#u {
+    position: absolute;
+    top: 15px;
+    left: -20%;
+
+}
+
+#gt {
+    position: absolute;
+    top: 185px;
+    left: -20%;
+
+}
+
+footer {
+    width: 100%;
+    height: 65%;
+    position: relative;
+
+    background-color: yellow;
+}
